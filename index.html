@@ -18,15 +18,18 @@
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i">
     
     
-    
+    <link rel="stylesheet" href="language-selector.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="jquery.language-selector.js"></script>
+
     
     
     <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "",
-		"url": "index.html",
-		"logo": "images/default-logo.png"
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "",
+    "url": "index.html",
+    "logo": "images/default-logo.png"
 }</script>
     <meta property="og:title" content="Esasy">
     <meta property="og:type" content="website">
@@ -34,7 +37,8 @@
     <link rel="canonical" href="index.html">
     <meta property="og:url" content="index.html">
   </head>
-  <body data-home-page="Esasy.html" data-home-page-title="Esasy" class="u-body"><header class="u-clearfix u-header u-white u-header" id="sec-8887"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
+  <body data-home-page="Esasy.html" data-home-page-title="Esasy" class="u-body">
+    <header class="u-clearfix u-header u-white u-header" id="sec-8887"><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
         <a href="#" class="u-image u-logo u-image-1">
           Logo
         </a>
@@ -52,8 +56,25 @@
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Esasy.html#carousel_80a9" data-page-id="752603006" style="padding: 10px 20px;">Biz barada</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Esasy.html#carousel_6c8c" data-page-id="752603006" style="padding: 10px 20px;">Önümlerimiz</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Esasy.html#carousel_9272" data-page-id="752603006" style="padding: 10px 20px;">Habarlaşmak üçin</a>
+</li><li class="u-nav-item"><div class="language-selector">
+    <div tabindex="1" id="dk_container_herolist" class="dk_container language-selector-width dk_shown dk_theme_default">
+      <a class="dk_toggle"><span class="dk_label">TM</span><span class="select-icon"></span></a>
+        <div class="dk_options">
+          <ul class="dk_options_inner">
+            <li class="dk_option_current"><a data-dk-dropdown-value="CH">TM</a></li>
+            <li class=""><a data-dk-dropdown-value="CH">RU</a></li>
+            <li class=""><a data-dk-dropdown-value="EN">EN</a></li>
+            <li class=""><a data-dk-dropdown-value="FR">TK</a></li>
+            <li class=""><a data-dk-dropdown-value="SP">CH</a></li>
+          </ul>
+        </div>
+    </div>
+    
+  </div>    
 </li></ul>
           </div>
+          
+           
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-sidenav-overflow">
@@ -62,7 +83,25 @@
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Esasy.html#carousel_80a9" data-page-id="752603006" style="padding: 10px 20px;">Biz barada</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Esasy.html#carousel_6c8c" data-page-id="752603006" style="padding: 10px 20px;">Önümlerimiz</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Esasy.html#carousel_9272" data-page-id="752603006" style="padding: 10px 20px;">Habarlaşmak üçin</a>
-</li></ul>
+</li>
+<li class="u-nav-item u-button-style u-nav-link"><div class="language-selector">
+    <div tabindex="1" id="dk_container_herolist" class="dk_container language-selector-width dk_shown dk_theme_default">
+      <a class="dk_toggle"><span class="dk_label" style="left: 3px;">TM</span><span class="select-icon"></span></a>
+        <div class="dk_options">
+          <ul class="dk_options_inner">
+            <li class="dk_option_current"><a data-dk-dropdown-value="CH">TM</a></li>
+            <li class=""><a data-dk-dropdown-value="CH">RU</a></li>
+            <li class=""><a data-dk-dropdown-value="EN">EN</a></li>
+            <li class=""><a data-dk-dropdown-value="FR">TK</a></li>
+            <li class=""><a data-dk-dropdown-value="SP">CH</a></li>
+          </ul>
+        </div>
+    </div>
+    
+  </div>
+</li>
+
+</ul>
               </div>
             </div>
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
@@ -260,7 +299,7 @@
                     <div class="u-container-layout u-container-layout-5">
                       <div class="u-expanded u-grey-light-2 u-map">
                         <div class="embed-responsive">
-                          <iframe class="embed-responsive-item" src="https://maps.google.com/maps?output=embed&amp;q=azatlyk%2C%20mary%2C%20Turkmenistan&amp;z=16&amp;t=k" data-map="JTdCJTIycG9zaXRpb25UeXBlJTIyJTNBJTIybWFwLWFkZHJlc3MlMjIlMkMlMjJhZGRyZXNzJTIyJTNBJTIybWFyeSUyQyUyMFR1cmttZW5pc3RhbiUyMiUyQyUyMnpvb20lMjIlM0ExNiUyQyUyMnR5cGVJZCUyMiUzQSUyMnNhdGVsbGl0ZSUyMiUyQyUyMmxhbmclMjIlM0ElMjIlMjIlMkMlMjJhcGlLZXklMjIlM0ElMjIlMjIlN0Q="></iframe>
+                          <iframe class="embed-responsive-item" src="http://maps.google.com/maps?output=embed&amp;q=azatlyk%2C%20mary%2C%20Turkmenistan&amp;z=16&amp;t=k" data-map="JTdCJTIycG9zaXRpb25UeXBlJTIyJTNBJTIybWFwLWFkZHJlc3MlMjIlMkMlMjJhZGRyZXNzJTIyJTNBJTIybWFyeSUyQyUyMFR1cmttZW5pc3RhbiUyMiUyQyUyMnpvb20lMjIlM0ExNiUyQyUyMnR5cGVJZCUyMiUzQSUyMnNhdGVsbGl0ZSUyMiUyQyUyMmxhbmclMjIlM0ElMjIlMjIlMkMlMjJhcGlLZXklMjIlM0ElMjIlMjIlN0Q="></iframe>
                         </div>
                       </div>
                     </div>
